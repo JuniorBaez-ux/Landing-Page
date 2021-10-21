@@ -1,5 +1,22 @@
+.Content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
 .Header{
+    display: flex;
+    flex-direction: column;
     background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 450px;
+}
+
+.header-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .Left-Header{
@@ -8,6 +25,74 @@
     color: #F9FAF8;
 }
 
+.Right-Header{
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 li{
     list-style: none;
+    float: left;
+    padding: 10px;   
+}
+
+#awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.Header-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.Header-Text{
+    width: 320px;
+
+}
+#subtext{
+    color: #E5E7EB;
+    margin: 0px;
+    width: 375px;
+}
+
+#boton{
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+}
+.Header-Image{
+    display: flex;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+.Central-Information{
+    flex: 2;;
+}
+
+.Inspiring-Quote{
+    flex: 2;
+}
+
+.Product-Advertisment{
+    flex: 2;
+}
+
+.Footer{
+    flex: 1;
 }
