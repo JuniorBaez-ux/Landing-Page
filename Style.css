@@ -1,9 +1,16 @@
+body{
+    margin: 0px;
+}
+
 .Content{
     display: flex;
     flex-direction: column;
     flex: 2;
 }
 
+img{
+    border-radius: 25px;
+}
 
 .Header{
     display: flex;
@@ -74,6 +81,7 @@ li{
 .Header-Image{
     display: flex;
     height: 250px;
+    border-radius: 0px;
 }
 
 .Central-Information{
@@ -106,13 +114,76 @@ li{
 }
 
 .Inspiring-Quote{
-    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #E5E7EB;
+    align-content: center;
+    justify-content: center;
+}
+#textp{
+    font-size: 32px;
+    font-weight: lighter;
+}
+.Autor{
+    align-self: flex-end;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.Content-Product{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .Product-Advertisment{
-    flex: 2;
+    display: flex;
+    background-color: #3882f6;
+    width: 900px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+#subtitle{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.textc{
+    display: flex;
+    flex-direction: column;
+}
+
+#texto{
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+#subutton{
+    height: 35px;
+    width: 100px;
+    background-color: #3882f6;
+    border-color:#F9FAF8;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: double;
 }
 
 .Footer{
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #E5E7EB;
+    background-color: #1f2937;
 }
