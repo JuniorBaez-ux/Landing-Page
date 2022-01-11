@@ -1,7 +1,9 @@
 body{
     margin: 0px;
 }
-
+button{
+    cursor: pointer;
+}
 .Content{
     display: flex;
     flex-direction: column;
@@ -186,4 +188,7 @@ li{
     height: 100px;
     color: #E5E7EB;
     background-color: #1f2937;
+}
+#right_nav_bar{
+    cursor: pointer;
 }
